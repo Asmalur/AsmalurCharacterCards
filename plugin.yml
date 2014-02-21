@@ -1,0 +1,30 @@
+name: GildorymCharacterCards
+author: [Lucariatias, Hohahihehu, melodichand]
+version: 1.2.10
+main: com.gildorymrp.gildorymcharactercards.GildorymCharacterCards
+commands:
+    setage:
+        description: Sets your age
+        usage: /<command> [age]
+    setgender:
+        description: Sets your gender
+        usage: /<command> [gender] (player)
+    setrace:
+        description: Sets your race
+        usage: /<command> [race] (player)
+    setinfo:
+        description: Sets your description
+        usage: /<command> [information]
+    addinfo:
+        description: Adds to your description
+        usage: /<command> [information]
+    card:
+        description: Shows your own character card
+        usage: /<command>
+permissions:
+    gildorym.setraceother:
+        description: Allows you to set another player's race or change your current race
+        default: op
+    gildorym.setgenderother:
+        description: Allows you to set another player's gender or change your current gender
+        default: op
